@@ -3,6 +3,6 @@
 using namespace std;
 
 int main(){
-cout<<"\nHi My Dear Friends"<<endl;
+cout<<"HE HE MANTO";
 return 0;
 }
