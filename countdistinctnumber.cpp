@@ -1,13 +1,18 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
-int distinctnumber(int size,int a[])
+/*int distinctnumber(int size,int a[])
 {
     unordered_set<int>s;
     for(int i=0;i<size;i++)
     {
         s.insert(a[i]);
     }
+    return s.size();
+}*/
+int distinctnumber(int size,int a[])
+{
+    unordered_set<int>s(a,a+size);
     return s.size();
 }
 /*int distinctnumber(int size,int a[])
@@ -51,6 +56,7 @@ class HelloWorld {
         System.out.println(hs.size());
     }
 }*/
+
 int main(){
 int size;
 cout<<"\nEnter the size of the array"<<"\n";
