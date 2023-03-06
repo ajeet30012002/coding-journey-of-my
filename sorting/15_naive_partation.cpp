@@ -1,6 +1,10 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
+/*                  Explanation of the code
+    In this code we choose the pivot index from the middle of the Arrays and after that we 
+    just take another temporarry array and put the all elements according to it ascending order.
+*/
 void Npartition(int* a,int l,int h,int p)
 {
       int temp[h-l+1],index=0;
