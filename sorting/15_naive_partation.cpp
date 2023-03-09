@@ -4,6 +4,11 @@ using namespace std;
 /*                  Explanation of the code
     In this code we choose the pivot index from the middle of the Arrays and after that we 
     just take another temporarry array and put the all elements according to it ascending order.
+                            Advantages:-
+-> It is an stable algorithm than lumato and hoare partation algorithms
+->Time complexity O(n)
+                            Disadvantages:-
+->space complexity O(n)
 */
 void Npartition(int* a,int l,int h,int p)
 {

@@ -1,0 +1,37 @@
+     Space Analysis:-
+
+     ->Is quick sort is In-place or not is a questionable ,If Naive approach is used then it is Not an In-plce algorithm.
+
+     But in lumato and hoare This partation algorithm is In-place completely.
+
+     Due to recursive calling There is O(n) space is utilized so that is not an in place algorithm.
+
+     ->If the array is sorted in either increasing or decreasing ordder then the lumato and hoare partation takes the worst case .
+
+    Hoare partation:-   ------\\\\\\\\\\\\\\\\***************************************************
+      O(1)   pivot element        O(n-1)
+
+
+
+    Lumato partation:-
+      ---------------------------------------------------\\\\\\\\\\\\\\\\**************
+      O(n-1)                                                pivot elements   O(n-1)
+
+
+                        standard method to chose the best form of quick sort
+
+    * Hoare partation *
+    int p = random(l,r);
+    swap(a[l],a[p]);
+    Hoare partation calling
+
+
+
+    * Lumato partation *
+    int p = random(l,r);
+    swap(a[r],a[p]);
+    Lumato partation calling
+
+              ***  Tail call eliminations
+    
+    ->It is used for the optimization of the code . In this the last statement is the recursive calling of the functions

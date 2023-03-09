@@ -1,0 +1,14 @@
+Quick sort Algorithm:-
+-> Divide and conquer Algorithm
+{ It is similar to that of merge sort algorithm in mergesort merge function is complex In quick sort Partation function is complex}
+->Worst case Time :O(n2)
+->Despite O(n2) worst case, it is considered faster, Because of the following reasons:-
+   1> In-Place [Does not require any Extra space]
+
+   2>cache Friendly[It's Working in same same array so it works fastly]
+
+   3>Average case is O(nlogn)
+
+   4>Tail Recursion
+->Partation is key Function(Naive,Lomuto,Hoare)
+->Quick sort is not an stable algorithms

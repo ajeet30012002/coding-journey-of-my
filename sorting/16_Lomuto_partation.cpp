@@ -9,6 +9,12 @@ pivot elements and the second half contains the elements larger than the pivot e
       Final output= 5 6 8 9 12 11 13
                     -----***********
                     smaller| Larger [Elements]
+    Advantages of Lomuto partation:-
+    -> It fixes the position of the Pivot elements
+    -> It takes more no of comparisons than Oare partations
+    Disadvantages:-
+    ->It is also not an stable algorithms
+
 */
 void Lpartation(int* a,int l,int h)
 {
@@ -22,6 +28,10 @@ void Lpartation(int* a,int l,int h)
         }
     }
     swap(a[j+1],a[h]);
+
+     // return j+1;
+
+     
     for(int i=0;i<=h;i++)
     {
         cout<<a[i+l]<<" ";
