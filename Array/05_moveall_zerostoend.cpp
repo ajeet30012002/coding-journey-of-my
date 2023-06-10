@@ -45,6 +45,30 @@ void move_zerostoend(int* a,int n)
         a[i]=0;
     }
 }*/
+/*
+          // Time cmplexity:-O(n)
+          // Space Complexity:-O(1)
+void move_zerostoend(int* a,int size)
+{
+    int st=0,end=size-1;
+    while(st<=end)
+    {
+        if(a[st]==1)
+        {
+            st++;
+        }
+        else if(a[end]==0)
+        {
+            end--;
+        }
+        else{
+            swap(a[st],a[end]);
+            st++;
+            end--;
+        }
+    }
+}
+*/
 void move_zerostoend(int* a,int n)
 {
     int count=0,i=0,j=n-1;
