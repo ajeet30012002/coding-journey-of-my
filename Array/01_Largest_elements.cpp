@@ -8,7 +8,7 @@ using namespace std;
     int larg=0;
     for(int i=0;i<size;i++)
     {
-        if(a[i]>larg)
+        if(a[i]>larg)  
         {
             larg=a[i];
         }

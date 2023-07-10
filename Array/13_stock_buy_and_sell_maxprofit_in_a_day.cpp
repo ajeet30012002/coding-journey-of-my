@@ -6,16 +6,16 @@ using namespace std;
          //Space complexity:=O(1)  
 int maxprofit(int* a,int size)
 {
-    int maxprofit=0;
+    int maxpro=0;
     for(int i=0;i<size;i++)
     {
         for(int j=i+1;j<size;j++)
         {
             if(a[j]>a[i])
-             maxprofit=max(maxprofit,a[j]-a[i]);
+             maxpro=max(maxpro,a[j]-a[i]);
         }
     }
-    return maxprofit;
+    return maxpro;
 }*/
 /* 
               //Second Methods

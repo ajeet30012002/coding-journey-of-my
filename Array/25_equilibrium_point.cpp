@@ -69,11 +69,11 @@ bool equilibrium_pt(int* a,int size)
     int leftsum=0;
     for(int i=0;i<size;i++)
     {
+        leftsum+=a[i];
         if(leftsum==sum)
         {
             return true;
         }
-        leftsum+=a[i];
         sum-=a[size-i-1];
     }
     return false;

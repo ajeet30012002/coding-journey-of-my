@@ -45,3 +45,11 @@ int main()
     cout<<maxdiff(a,size);
     return 0;
 }
+/*
+int large=INT_MIN;
+for(size-1 to 0)
+  for(0 to i)
+     if a[i]-a[j] <large
+       large=a[i]-a[j];
+print(large)
+*/
